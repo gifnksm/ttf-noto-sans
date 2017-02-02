@@ -1,0 +1,21 @@
+[package]
+name = "ttf-noto-sans"
+version = "0.1.0"
+authors = ["gifnksm <makoto.nksm+github@gmail.com>"]
+description = "Noto Sans TTF fonts for embedding into your application binary."
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/gifnksm/ttf-noto-sans"
+
+[dependencies]
+
+[dev-dependencies]
+conrod = {version = "0.51", features = ["piston"]}
+piston_window = "0.63"
+
+[features]
+default = ["regular"]
+bold = []
+bold_italic = []
+italic = []
+regular = []
