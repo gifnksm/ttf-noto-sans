@@ -57,12 +57,12 @@ pub const REGULAR: &'static [u8] = include_bytes!("../assets/NotoSans-Regular.tt
 
 /// Noto Sans Bold
 #[cfg(feature = "bold")]
-pub const BOLD: &'static [u8] = include_bytes!("../assets/NotoSans-Bold.rrf");
+pub const BOLD: &'static [u8] = include_bytes!("../assets/NotoSans-Bold.ttf");
 
 /// Noto Sans Italic
 #[cfg(feature = "italic")]
-pub const ITALIC: &'static [u8] = include_bytes!("../assets/NotoSans-Italic.rrf");
+pub const ITALIC: &'static [u8] = include_bytes!("../assets/NotoSans-Italic.ttf");
 
 /// Noto Sans Bold Italic
 #[cfg(feature = "bold_italic")]
-pub const BOLD_ITALIC: &'static [u8] = include_bytes!("../assets/NotoSans-BoldItalic.rrf");
+pub const BOLD_ITALIC: &'static [u8] = include_bytes!("../assets/NotoSans-BoldItalic.ttf");
